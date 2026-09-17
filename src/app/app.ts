@@ -67,7 +67,7 @@ export class App {
     },
     {
       title: 'Training Management API',
-      category: 'Backend API',
+      category: 'Backend API and frontend application',
       description:
         'A .NET API project for managing students, courses and enrollment operations.',
       technologies: [
