@@ -100,11 +100,11 @@ export class App {
   }
 
   downloadCV(): void {
-    window.open(
-      'cv/sewmehon-melak-emiru-cv.pdf',
-      '_blank'
-    );
-  }
+  const link = document.createElement('a');
+  link.href = '/cv/sewmehon-melak-emiru-cv.pdf';
+  link.download = 'Sewmehon-Melak-Emiru-CV.pdf';
+  link.click();
+}
 
   @HostListener('window:scroll')
   onScroll(): void {

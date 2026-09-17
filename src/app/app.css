@@ -8,7 +8,7 @@
 
 :root {
   --background: #f5f7fb;
-  --dark: #07111f;
+  --dark: #0e071f;
   --dark2: #0d1b2c;
   --text: #101827;
   --muted: #687587;
@@ -398,12 +398,12 @@ nav button.active {
 
 .large-text {
   font-size: 1.15rem;
-
+  color:#050d17;
   line-height: 1.9;
 }
 
 .muted-text {
-  color: #9aa8b8;
+  color:blueviolet;
 
   line-height: 1.8;
 }
@@ -414,7 +414,7 @@ nav button.active {
   grid-template-columns: repeat(3, 1fr);
 
   gap: 15px;
-
+  color: blueviolet;
   margin-top: 35px;
 }
 
@@ -483,7 +483,7 @@ pre {
 
   overflow-x: auto;
 
-  color: #dbe5ef;
+  color: black;
 
   line-height: 1.8;
 
@@ -707,7 +707,7 @@ pre {
 }
 
 .date {
-  color: var(--purple);
+  color: black;
 
   font-size: .7rem;
 
